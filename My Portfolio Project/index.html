@@ -4,13 +4,18 @@
 	<title>Rony's Blog- Welcome to slower paradise</title>
 	<meta charset = "UTF-8">
 	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			overflow:hidden;
+		}
+	</style>
 </head>
 <body>
-	<table Width="100%", border="1">
+	<table align="center" border="1">
 		<!--Row No 1: Header -->
 		<tr>
-			<td height="100" width="20%"><img src="Image/rony.jpg.jpg" alt="Photo of Rony" height="100" width="20%"></td>
-			<td colspan="2" height="10%" width="80%"></td>
+			<td height="100" width="20%" align="center"><img src="Image/rony.jpg.jpg" alt="Photo of Rony" height="120" width="250"></td>
+			<td colspan="2" height="10%" width="80%"><img src="Image/background_header.jpg" alt="Header Background Image" height="120" width="500"></td>
 		</tr>
 		<!--Row No 2: Navigation -->
 		<tr>
@@ -21,14 +26,14 @@
 					<td><a href="#">Blog</a></td>
 					<td><a href="#">Photos</a></td>
 					<td><a href="#">Contact</a></td>
-					<td><a href="#">Follow</a></td>
+					<td><a href="#footer">Follow</a></td>
 				</tr>
 			</table>
 			</td>
 		</tr>
 		<!--Row No 3: About Me-->
 		<tr>
-			<td colspan="2" height="300" width="80%">	
+			<td colspan="2" height="300" width="70%">	
 				<p>Hi, I am <b>Asif Mahmud Rony</b>. I'm a Web enthusiast. I love web programming and now i am able write code in
 					HTML and CSS. Though i am learning Web/Front End Design in <abbr title="BASIS institute of Technology and Management">BITM</abbr>
 					Currently I am pursuing my Bachelor in CSE from Southeast University. Besides I am also involved in 
@@ -45,14 +50,21 @@
 					concentrating on CGPA,Publication and IELTS, GRE preparation.
 				</p>
 			</td>
-			<td width="20%">
-			<iframe src="https://www.khanacademy.org" height="300" width="300">
+			<td width="30%">
+			<!--<iframe src="https://www.khanacademy.org" height="100" width="100">-->
 			</td>
 		</tr>
 		<!--Row No 4: Blog Post's-->
 		<tr>
 			<td width="20%" height="300"></td>
-			<td colspan="2" width="80%"></td>
+			<td colspan="2" width="80%">
+				<dl>
+					<p>Recent Posts</p>
+					<dd>Shitakundu</dd>
+					<dd>Bandarban</dd>
+					<dd>Purbachal</dd>
+				</dl>
+			</td>
 		</tr>
 		<!--Row No 5: Contact Form-->
 		<tr>
@@ -60,8 +72,8 @@
 		</tr>
 		<!-- Row No 6: Footer-->
 		<tr>
-			<td colspan="3" height="100"></td>
-		
+			<td colspan="3" height="100" id="#footer"></td>
+		</tr>
 	</table>
 </body>
 </html>
