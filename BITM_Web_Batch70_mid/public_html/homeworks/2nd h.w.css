@@ -7,8 +7,24 @@ and open the template in the editor.
     Created on : Oct 18, 2018, 11:10:03 AM
     Author     : Mr. Slow
 */
-.div{
+.header_left{
     height:200px;
-    width:400px;
+    width:30%;
     background-color: blue;
+    float:left;
+}
+.header_right{
+    height:200px;
+    width:70%;
+    background-color: red;
+    float:right;
+}
+.left_sidebar{
+    height:500px;
+    width: 20%;
+    background-color:#777;
+    
+}
+.content{
+    height:
 }
