@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                text-align: center;
+                margin:30px;
+            }
+            .tooltip{
+                position:relative;
+                display:inline-block;
+                border:1px solid black;
+            }
+            .tooltip .text{
+                visibility: hidden;
+                width:100px;
+                background-color: #9933ff;
+                color:white;
+                text-align:center;
+                border-radius: 6px;
+                padding: 3px 0;
+                position: absolute;
+                z-index: 1;
+                /* for positioning right
+                //top: -2px;
+                //bottom: -2px;
+                //left:101%;
+                //right:102%;
+                /* for positioning Up
+                //bottom:100%;
+                */
+                left: 60%;
+                margin-left: -60px;
+                top:106%;
+            }
+            .tooltip:hover .text{
+                visibility: visible;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tooltip">WEb DEsign
+            <span class="text">70 MID</span>
+        </div>
+    </body>
+</html>

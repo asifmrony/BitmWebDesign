@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                margin:0;
+            }
+            ul{
+                list-style-type: none;
+                margin:0;
+                padding:0;
+                overflow:hidden;
+                background-color: #3333ff;
+                position:sticky;
+                top:10px;
+                margin-bottom:7px;
+            }
+            li{
+                //float:left;
+                display: inline-block;
+            }
+            li a{
+                text-decoration: none;
+                color:white;
+                text-align:center;
+                padding:10px 15px;
+            }
+            li a:hover:not(.a){
+                background-color: #ff9999;
+            }
+            .a{
+                background-color: #339900;
+            }
+            img{
+                height:150px;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="cat-photo.jpg" alt="image" >
+        </div>
+        <ul>
+            <li><a class="a" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div>
+            <img src="cat-photo.jpg" alt="image" >
+            <img src="cat-photo.jpg" alt="image" >
+            <img src="cat-photo.jpg" alt="image" >
+            <img src="cat-photo.jpg" alt="image" >
+            <img src="cat-photo.jpg" alt="image" >
+        </div>
+    </body>
+</html>
