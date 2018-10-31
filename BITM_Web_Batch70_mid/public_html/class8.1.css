@@ -7,4 +7,43 @@ and open the template in the editor.
     Created on : Oct 21, 2018, 9:07:08 PM
     Author     : Web Design
 */
-
+.one{
+    height: 160px;
+    width:auto;
+    background-color: blue;
+}
+.one_one{
+    height:160px;
+    width:500px;
+    background-color:red;
+}
+.two{
+    float:left;
+    display:inline;
+    overflow:hidden;
+}
+.two_one{
+    height:50px;
+    width:20%;
+    background-color: #9999ff;
+}
+.two_two{
+    height:50px;
+    width:20%;
+    background-color: #3333ff;
+}
+.two_three{
+    height:50px;
+    width:20%;
+    background-color: #99ffff;
+}
+.two_four{
+    height:50px;
+    width:20%;
+    background-color: #009999;
+}
+two_five{
+    height:50px;
+    width:20%;
+    background-color: #00cccc;
+}
