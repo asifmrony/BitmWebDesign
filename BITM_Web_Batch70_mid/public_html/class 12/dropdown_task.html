@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CSS Dropdown Submenu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #navigation{
+                margin-top:15px;
+            }
+            #navigation ul{
+               list-style-type:none;
+               position: relative;
+               float:left;
+               margin:0;
+               padding:0;
+            }
+            #navigation ul li{
+                position:relative;
+                float:left;
+                margin:0;
+                padding:0;
+            }
+            #navigation ul li a{
+                display:block;
+                //color:#fff;
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 32px;
+                padding:0 15px;
+            }
+            #navigation ul li:hover{
+                background-color: #33ccff;
+            }
+            #navigation ul ul{
+                display: none;
+                position: absolute;
+                top:100%;
+                left: 0;
+                background-color: #fff;
+                padding:0;
+            }
+            #navigation ul li:hover > ul{
+                display:block;
+            }
+            #navigation ul ul li{
+                float:none;
+                width: 150px;
+            }
+            #navigation ul ul a{
+                line-height:120%;
+                padding:10px 15px;
+            }
+            #navigation ul ul ul{
+                top:0;
+                left:100%;
+            }
+        </style>
+    </head>
+    <body>
+        <nav id='navigation'>
+            <ul>
+                <li><a href='#'>Home</a></li>
+                <li><a href='#'>Service</a></li>
+                <li><a href='#'>Gallery</a>
+                    <ul>
+                        <li><a href='#'>Gallery -1</a></li>
+                        <li><a href='#'>Gallery -2</a></li>
+                        <li><a href='#'>Gallery -3</a>
+                            <ul>
+                                <li><a href='#'>Gallery 3-1</a></li>
+                                <li><a href='#'>Gallery 3-2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href='#'>Contact</a></li>
+            </ul>
+        </nav>
+    </body>
+</html>

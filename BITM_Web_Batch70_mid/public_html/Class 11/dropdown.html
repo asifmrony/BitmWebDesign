@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .btn{
+                background-color:#009999;
+                color:white;
+                padding:10px;
+                font-size:20px;
+            }
+            .dropdown{
+                position:relative;
+                display:inline-block;
+            }
+            .dropdowntext{
+                position:absolute;
+                background-color:#00cc33;
+                min-width:160px;
+                display:none;
+                padding:12px 14px;
+                z-index:1;
+            }
+            .dropdown:hover .dropdowntext{
+                display:block;
+            }
+            .dropdowntext a{
+                color:#0000cc;
+                padding:10px 14px;
+                text-decoration:none;
+                display:block;
+            }
+            dropdowntext a:hover{
+                background-color:blue;
+            }
+            .dropdown:hover .btn{
+                background-color: #006666;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dropdown">
+            <button class="btn">Drop D</button>
+            
+            <div class="dropdowntext">
+                <a href="#">Home</a>
+                <a href="#">Home</a>
+                <a href="#">Home</a>
+                
+            </div>
+        </div>
+    </body>
+</html>

@@ -5,9 +5,10 @@ and open the template in the editor.
 */
 /* 
     Created on : Oct 21, 2018, 9:07:08 PM
-    Author     : Web Design
+    Author     : Asif Mahmud Rony
 */
 .one{
+<<<<<<< HEAD
     height: 160px;
     width:auto;
     background-color: blue;
@@ -47,3 +48,16 @@ two_five{
     width:20%;
     background-color: #00cccc;
 }
+=======
+    float:left;
+    background-color: #0066ff;
+    border: 1px solid black;
+    width:30%;
+}
+.one_one{
+    float:left;
+    background-color: ;
+    border: 1px solid black;
+    width:30%;
+}
+>>>>>>> f092dd38b03aade153268eb67a6c20e03a74a585
