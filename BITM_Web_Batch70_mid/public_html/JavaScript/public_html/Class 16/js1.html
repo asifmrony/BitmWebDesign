@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JavaScript</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p>Creating a JavaScript Object</p>
+        <p id="demo"></p>
+        <script>
+            var person={
+                firstName:"John",
+                lastName:"Snow",
+                age: 50,
+                eyeColor:"blue"
+            };
+            document.getElementById("demo").innerHTML=person.firstName + " is " + person.age + " years old" + " and his eye color is " + person.eyeColor;
+        </script>
+    </body>
+</html>
