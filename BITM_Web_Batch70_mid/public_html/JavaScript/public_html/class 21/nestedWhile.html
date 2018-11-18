@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>javascript_while_loop_nested</title>
+</head>
+
+<body>
+
+<p id="msg"></p>
+
+<script>
+  // Set variables
+  var i = 1;
+  var output = "";
+
+  // Outer loop
+  while (i <= 10) {
+
+      output += "<h1>" + i + " times table</h1>";
+      output += "<ul>";
+
+        // Inner loop
+        //var j = 1;
+        //while (j <= 10) {
+        for(j=1;j<=10;j++){
+          output += "<li>" + j + " x " + i + " = " + j * i;
+         // j++;
+      }
+          i++;
+
+      output += "</ul>";
+
+  }
+
+  // Output results to the above HTML element
+  document.getElementById("msg").innerHTML = output;
+</script>
+</body>
+</html>
+

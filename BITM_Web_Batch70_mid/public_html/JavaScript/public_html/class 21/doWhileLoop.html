@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<title>My Example</title>
+
+
+<p id="msg"></p>
+
+<script>
+  // Set variables
+  var myBankBalance = 0;
+  var output = "";
+
+  // The loop
+  do {
+    output += "My bank balance is now $" + myBankBalance + "<br>";
+    myBankBalance ++;
+  }
+  while (myBankBalance <= 10);
+
+  // Output results to the above HTML element
+  document.getElementById("msg").innerHTML = output;
+</script>

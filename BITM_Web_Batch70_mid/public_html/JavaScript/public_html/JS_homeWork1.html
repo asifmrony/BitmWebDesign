@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript form Submission and Show</title>
+	<script>
+		function newFunction(){
+			var x = document.getElementById("name").value;
+			var y = document.getElementById("add").value;
+			var z = document.getElementById("comment").value;
+			document.getElementById("demo").innerHTML = "Your Name is :" + x;
+			document.getElementById("kemo").innerHTML = "Your Address :" + y;
+			document.getElementById("lemo").innerHTML = "Feedback :" + z;
+		}
+	</script>
+	
+</head>
+<body>
+	
+	<form>
+		<fieldset>
+			<legend>Write Down Your Credential</legend>
+			Name: <input type="text" id="name" name="namefield"> <br /><br/>
+			Address: <input type="text" id="add" name="address"> <br /><br/>
+			Comment:  <textarea id="comment" name="commentfield">
+			</textarea>
+			<button type="button" onCLick="newFunction()">Submit</button>
+		</fieldset>
+	</form>
+	<p id="demo"></p>
+	<p id="kemo"></p>
+	<p id="lemo"></p>
+</body>
