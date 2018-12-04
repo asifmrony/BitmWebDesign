@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>JavaScript Form Create</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function aFunction(){
+                var a = document.getElementById("first").value
+                document.getElementById("showfirst").innerHTML=a;
+                var b = document.getElementById("last").value
+                document.getElementById("showlast").innerHTML = b;
+                var c = document.getElementById("full").value
+                document.getElementById("showfull").innerHTML = c;
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <form>
+                Name : <input type="text" name="namefield" > First Name must be 8 to 20 character<br/>
+                Email : <input type="email" name="emailfield" ><br/>
+                Password : <input type="password" name="passwordfield" ><br/>
+                Confirm Password : <input type="password" name="againpasswordfield" ><br/>
+                <button type="button" onclick="aFunction()">Submit</button>
+                <hr/>
+            </form>
+            <form>
+                First Name <input type="text" name="fname" id="first" onkeyup="aFunction()"><br/>
+                Last Name <input type="text" name="fname" id="last" onkeyup="aFunction()"><br/>
+                First Name <input type="text" name="fname" id="full" onkeyup="aFunction()"><br/>
+                <hr/>
+            </form>
+            <table border="1">
+                <tr>
+                    <th>
+                        First Name
+                    </th>
+                    <th>Last Name</th>
+                    <th>Full Name</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p id="showfirst"></p>
+                    </td>
+                    <td>
+                        <p id="showlast"></p>
+                    </td>
+                    <td>
+                        <p id="showfull"></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
