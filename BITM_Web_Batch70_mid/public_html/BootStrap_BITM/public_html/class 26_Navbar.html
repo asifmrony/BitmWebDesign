@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Navbar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+
+            .bg-img{
+                background-color: black;
+                
+            }
+            .navbar{
+                margin-bottom: 0;
+                border-radius: 0;
+            }
+            .space{
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse bg-img">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"> Batch 70 Mid</a>
+                </div>
+                <div class="collapse navbar-collapse" id="collapse">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Service</a></li>
+
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page 1</a></li>
+                                <li><a href="#">Page 2</a></li>
+                                <li><a href="#">Page 3</a></li>
+                                <li><a href="#">Page 4</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"> Sign Up</span></a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"> Log In</span></a></li>
+                    </ul>
+
+                    <form class="navbar-form navbar-left" action="/action.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-default">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <!--<p class="navbar-text">Some Text</p>-->
+                </div>
+            </div>
+        </nav>
+        
+        <div class="zoombutton" style="background-color: orange">
+            <div class="container text-center" >
+                <h1>Layout One</h1>
+                <p>Some Text</p>
+            </div>
+        </div>
+        
+        <div class="space"></div>
+         <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="img/nature.jpeg" target="_blank">
+                            <img src="img/nature.jpeg" alt="image" style="width: 100%">
+                            <div>
+                                <p>Image Gallery Caption</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="img/nature.jpeg" target="_blank">
+                            <img src="img/nature.jpeg" alt="image" style="width: 100%">
+                            <div>
+                                <p>Image Gallery Caption</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="img/nature.jpeg" target="_blank">
+                            <img src="img/nature.jpeg" alt="image" style="width: 100%">
+                            <div>
+                                <p>Image Gallery Caption</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="img/nature.jpeg" target="_blank">
+                            <img src="img/nature.jpeg" alt="image" style="width: 100%">
+                            <div>
+                                <p>Image Gallery Caption</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="img/nature.jpeg" target="_blank">
+                            <img src="img/nature.jpeg" alt="image" style="width: 100%">
+                            <div>
+                                <p>Image Gallery Caption</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <a href="img/nature.jpeg" target="_blank">
+                            <img src="img/nature.jpeg" alt="image" style="width: 100%">
+                            <div>
+                                <p>Image Gallery Caption</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="panel panel-primary">
+            <div class="panel-heading">Image Heading</div>
+            <div class="panel-body"><img src="img/nature.jpeg" alt="Natures" style="width:100%"></div>
+            <div class="panel-footer">Image Footer</div>
+        </div>
+        
+        <script src="js/jquery-3.3.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
