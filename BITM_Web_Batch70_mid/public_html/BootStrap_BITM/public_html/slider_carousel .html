@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Collapsibale Navbar</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .body {
+                background-image: url("images/140.jpg");
+
+            }
+            .red{
+                color: red!important;
+            }
+        </style>
+    </head>
+    <body >
+        <nav class="navbar navbar-inverse body"  >
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand red" href="#" >Batch 68 mid</a>                    
+                </div>
+                <div class="collapse navbar-collapse" id="collapse">
+                    <ul class="nav navbar-nav ">
+                        <li><a class="red" href="#">Home</a></li> 
+                        <li><a href="#">About</a></li> 
+                        <li><a href="#">Service</a></li> 
+                        <li><a href="#">Contact</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h2>Panel</h2>
+            <div class="panel panel-primary">
+                <div class="panel-heading">Panel Heading</div>
+                <div class="panel-body">body</div>
+                <div class="panel-footer">footer</div>
+            </div>
+
+            <div class="panel-group">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Panel Heading</div>
+                    <div class="panel-body">body</div>
+                    <div class="panel-footer">footer</div>
+
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">Panel Heading</div>
+                        <div class="panel-body">body</div>
+                        <div class="panel-footer">footer</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-group">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <a href="#collapse1" data-toggle="collapse">Collapsible Panel</a>
+                        </h3>
+                    </div>
+                    <div id="collapse1" class="panel panel-collapse">
+                        <div class="panel-body">Panel Body</div>
+                        <div class="panel-footer">Panel Footer</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
