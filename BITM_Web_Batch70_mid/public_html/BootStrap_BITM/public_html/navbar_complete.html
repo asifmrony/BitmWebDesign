@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+	<title>Index</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	    .navbar{
+		margin-bottom: 0;
+		border-radius: 0;
+	    }
+           .bg{
+               width:100%;
+               height: 100px;
+               background-color: black;
+               color: #f8f8f8;
+               padding-top:30px;
+           }
+	</style>
+    </head>
+    <body>
+	<nav class="navbar navbar-inverse" style="background-color:black;color: white ! important ;">
+	    <div class="container-fluid">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		    </button>
+		    <a class="navbar-brand"  href="#">Astroboy</a>
+		</div>
+		<div class="collapse navbar-collapse" id="collapse">
+		<ul class="nav navbar-nav">
+		    <li><a href="#">Home</a></li>
+		    <li><a href="#">About</a></li>
+		    <li class="dropdown">
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Service<span class="caret"></span></a>
+		<ul class="dropdown-menu">
+		    <li><a href="#">page 1</a></li>
+		    <li><a href="#">page 2</a></li>
+		    <li><a href="#">page 3</a></li>
+		    <li><a href="#">page 4</a></li>
+		    <li><a href="#">page 5</a></li>
+		    <li><a href="#">page 6</a></li>
+		</ul>
+		    </li>
+		    <li><a href="#">Contact</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+		    <li><a href="#modal" data-toggle="modal"><span class="glyphicon glyphicon-user"></span>Sign up</a></li>
+		    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+		</ul>
+		
+		<form class="navbar-form navbar-left" action="/action.php">
+		    <div class="form-group">
+		       <input type="text" class="form-control" placeholder="search">
+		        <button type="submit" class="btn btn-default">Submit</button>
+		    </div>
+		</form>
+		<form class="navbar-form navbar-left" action="/action.php">
+		    <div class="input-group">
+		       <input type="text" class="form-control" placeholder="search">
+		       <div class="input-group-btn">
+			    <button type="submit" class="btn btn-default">
+				<i class="glyphicon glyphicon-search"></i>
+			    </button>
+			    
+		       </div>
+		    </div>
+		       
+		</form>
+	    </div>
+	</div>
+	    
+	</nav>
+	<div class="jumbotron" style="background-color: #ff6600">
+	    <div class="container text-center" style="background-color: #f8f8f8">
+		<h1>Layout One</h1>
+		<p>Some Text</p>
+		
+	    </div>
+	</div>
+	
+	<div class="panel panel-primary">
+	    <div class="panel-heading" style="text-align: center">Image Heading</div>
+	    <div class="panel-body"><img src="img/screen_(2).png" alt="Nature" style="width: 100%"></div>
+	    <div class="panel-footer" style="text-align: center; background-color: gray; color: #f8f8f8">Image Footer</div>
+	    
+	</div>
+	
+	<div class="modal fade" role="dialog" id="modal">
+	    <div class="modal-dialog">
+		<div class="modal-content">
+		    <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<h4 class="modal-title">Modal title</h4>
+		    </div>
+		    <div class="modal-body">
+			<form class="form-horizontal" action="action.php">
+		<div class="form-group">
+		    <label for="email" class="control-label col-sm-2">Email: </label>
+		    <div class="col-sm-10">
+			<input type="email" class="form-control" id="email">
+		    </div>
+		</div>
+		<div class="form-group">
+		    <label for="pwd" class="control-label col-sm-2">Password: </label>
+		    <div class="col-sm-10">
+			<input type="password" class="form-control" id="pwd">
+		    </div>
+		</div>
+		<div class="form-group">
+		    <div class="col-sm-offset-2 col-sm-10">
+		    <button type="button" class="btn btn-primary btn-lg">Submit</button>
+		</div>
+		</div>
+	    </form>
+		    </div>
+		    <div class="modal-footer">
+			<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+		    </div>
+		</div>
+	    </div>
+	</div>
+	
+	
+	
+	
+	<div class="container">
+	    <div class="row">
+		
+		<div class="col-md-4">
+		    <div class="thumbnail">
+			<a href="img/nature.jpg" target="_blank">
+			    <img src="img/1.jpeg" alt="image" style="width: 100%">
+			    <div>
+				<p style="text-align: center">Image Gallery Caption</p>
+			    </div>
+			</a>
+		    </div>
+		</div>
+		<div class="col-md-4">
+		    <div class="thumbnail">
+			<a href="img/nature.jpg" target="_blank">
+			    <img src="img/2.png" alt="image" style="width: 100%">
+			    <div>
+				<p style="text-align: center">Image Gallery Caption</p>
+			    </div>
+			</a>
+		    </div>
+		</div>
+		<div class="col-md-4">
+		    <div class="thumbnail">
+			<a href="img/nature.jpg" target="_blank">
+			    <img src="img/1.jpeg" alt="image" style="width: 100%">
+			    <div>
+				<p style="text-align: center">Image Gallery Caption</p>
+			    </div>
+			</a>
+		    </div>
+		</div>
+		<div class="col-md-4">
+		    <div class="thumbnail">
+			<a href="img/nature.jpg" target="_blank">
+			    <img src="img/2.png" alt="image" style="width: 100%">
+			    <div>
+				<p style="text-align: center">Image Gallery Caption</p>
+			    </div>
+			</a>
+		    </div>
+		</div>
+		<div class="col-md-4">
+		    <div class="thumbnail">
+			<a href="img/nature.jpg" target="_blank">
+			    <img src="img/1.jpeg" alt="image" style="width: 100%">
+			    <div>
+				<p style="text-align: center">Image Gallery Caption</p>
+			    </div>
+			</a>
+		    </div>
+		</div>
+		<div class="col-md-4">
+		    <div class="thumbnail">
+			<a href="img/nature.jpg" target="_blank">
+			    <img src="img/2.png" alt="image" style="width: 100%">
+			    <div>
+				<p style="text-align: center">Image Gallery Caption</p>
+			    </div>
+			</a>
+		    </div>
+		</div>
+	    </div>
+	</div>
+	
+        <div class="bg text-center">
+            <p>@2018 All Rights Reserved by Team blah blah blah</p>
+        </div>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
